@@ -1,0 +1,32 @@
+{
+ "name": "autoconf",
+ "version": "2.72",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "autoconf-2.72.tar.xz"
+ ],
+ "desc": "GNU Autoconf 2.72",
+ "file": "autoconf-2.72.tpkg",
+ "size": 591636,
+ "sha256": "4bd6ce1296b0f113780dfc7172ac18fcf76b9ea93d6ee57935bff70e9b8d4ee5",
+ "unpacked": 1995621,
+ "min_build": 619,
+ "depends": [
+  "perl",
+  "m4"
+ ],
+ "commands": {
+  "autoconf": "bin/autoconf",
+  "autoheader": "bin/autoheader",
+  "autom4te": "bin/autom4te",
+  "autoreconf": "bin/autoreconf",
+  "autoscan": "bin/autoscan",
+  "autoupdate": "bin/autoupdate",
+  "ifnames": "bin/ifnames"
+ }
+}

@@ -1,0 +1,5 @@
+autoconf 2.72 for tOS
+==================
+
+Built from autoconf-2.72.tar.xz (beside this package) on a Linux host with prefix /system/pkg/autoconf, without changes to the source. License: GPL-3.0-or-later (LICENSE).
+glibc: dynamically linked against the GNU C Library, which tOS's base system carries.
